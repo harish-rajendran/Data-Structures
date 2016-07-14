@@ -4,7 +4,7 @@
 
 Very useful in interview process for Java Software Development Engineer (SDE).
 
-## Big O Notation
+# Big O Notation
 
 #### Big-O Complexity Chart
 ![Big-O Complexity Chart](http://bigocheatsheet.com/img/big-o-complexity.png)
@@ -153,13 +153,13 @@ N		N log N		N2
 
 
 ```
-    O(n): If I double the input size the runtime doubles
+   -  O(n): If I double the input size the runtime doubles
 
-    O(n2): If the input size doubles the runtime quadruples
+   -  O(n2): If the input size doubles the runtime quadruples
 
-    O(log n): If the input size doubles the runtime increases by one
+   -  O(log n): If the input size doubles the runtime increases by one
 
-    O(2n): If the input size increases by one, the runtime doubles
+   -  O(2n): If the input size increases by one, the runtime doubles
 ```
 	
 Question
@@ -173,8 +173,8 @@ O(NlogN)
 
 
 
-## Algorithms
-## Simple Sorting
+# Algorithms
+# Simple Sorting
 
 
 ##### Where it happens?
@@ -241,7 +241,7 @@ In any case, like the other sort routines in this chapter, the insertion sort ru
 
 For data that is already sorted or almost sorted, the insertion sort does much better. When data is in order, the condition in the while loop is never true, so it becomes a simple statement in the outer loop, which executes `N-1` times. In this case the algorithm runs in `O(N)` time. If the data is almost sorted, insertion sort runs in almost `O(N)` time, which makes it a simple and efficient way to order a file that is only slightly out of order.
 
-## Advanced Sorting
+# Advanced Sorting
 
 ### Merge Sort
 
@@ -322,7 +322,7 @@ Quicksort operates in `O(N*logN)` time. This is generally true of the divide-and
 
 Java offers a standard way of sorting Arrays with `Arrays.sort()`. This sort algorithm is a modified quicksort which show more frequently a complexity of `O(n log(n))`. See the Javadoc for details.
 
-## Data Structures
+# Data Structures
 
 ### Stacks
 
