@@ -223,9 +223,9 @@ The first three are the foundations for faster and more efficient algorithms.
 
 ### Bubble Sort
 
-![Bubble Sort animation](https://raw.githubusercontent.com/donbeave/interview/master/bubble-sort.gif)
+![Bubble Sort animation](https://raw.githubusercontent.com/reach2arunprakash/interview/master/bubble-sort.gif)
 
-[Implementation](https://github.com/donbeave/interview/blob/master/src/main/java/com/zhokhov/interview/sorting/BubbleSort.java)
+[Implementation](https://github.com/reach2arunprakash/interview/blob/master/src/main/java/com/zhokhov/interview/sorting/BubbleSort.java)
 
 The bubble sort is notoriously slow, but it’s conceptually the simplest of the sorting algorithms.
 
@@ -245,9 +245,9 @@ In general, where `N` is the number of items in the array, there are `N-1` compa
 
 ### Selection Sort
 
-![Selection Sort animation](https://raw.githubusercontent.com/donbeave/interview/master/selection-sort.gif)
+![Selection Sort animation](https://raw.githubusercontent.com/reach2arunprakash/interview/master/selection-sort.gif)
 
-[Implementation](https://github.com/donbeave/interview/blob/master/src/main/java/com/zhokhov/interview/sorting/SelectionSort.java)
+[Implementation](https://github.com/reach2arunprakash/interview/blob/master/src/main/java/com/zhokhov/interview/sorting/SelectionSort.java)
 
 [Simple explanation](http://www.codenlearn.com/2011/07/simple-selection-sort.html)
 
@@ -259,9 +259,9 @@ The selection sort performs the same number of comparisons as the bubble sort: `
 
 ### Insertion Sort
 
-![Insertion Sort animation](https://raw.githubusercontent.com/donbeave/interview/master/insertion-sort.gif)
+![Insertion Sort animation](https://raw.githubusercontent.com/reach2arunprakash/interview/master/insertion-sort.gif)
 
-[Implementation](https://github.com/donbeave/interview/blob/master/src/main/java/com/zhokhov/interview/sorting/InsertionSort.java)
+[Implementation](https://github.com/reach2arunprakash/interview/blob/master/src/main/java/com/zhokhov/interview/sorting/InsertionSort.java)
 
 [Simple explanation](http://www.codenlearn.com/2011/07/simple-insertion-sort.html)
 
@@ -283,9 +283,9 @@ For data that is already sorted or almost sorted, the insertion sort does much b
 
 ### Merge Sort
 
-![Merge Sort animation](https://raw.githubusercontent.com/donbeave/interview/master/merge-sort.gif)
+![Merge Sort animation](https://raw.githubusercontent.com/reach2arunprakash/interview/master/merge-sort.gif)
 
-[Implementation](https://github.com/donbeave/interview/blob/master/src/main/java/com/zhokhov/interview/sorting/MergeSort.java)
+[Implementation](https://github.com/reach2arunprakash/interview/blob/master/src/main/java/com/zhokhov/interview/sorting/MergeSort.java)
 
 [Simple explanation](http://www.codenlearn.com/2011/10/simple-merge-sort.html)
 
@@ -324,9 +324,9 @@ Quicksort can sort "inline" of an existing collection, e.g. it does not have to 
 
 ### Quick Sort
 
-![Quick Sort animation](https://raw.githubusercontent.com/donbeave/interview/master/quick-sort.gif)
+![Quick Sort animation](https://raw.githubusercontent.com/reach2arunprakash/interview/master/quick-sort.gif)
 
-[Implementation](https://github.com/donbeave/interview/blob/master/src/main/java/com/zhokhov/interview/sorting/QuickSort.java)
+[Implementation](https://github.com/reach2arunprakash/interview/blob/master/src/main/java/com/zhokhov/interview/sorting/QuickSort.java)
 
 [Simple explanation](http://me.dt.in.th/page/Quicksort/)
 [Simple explanation 2](http://www.mycstutorials.com/articles/sorting/quicksort)
@@ -339,7 +339,7 @@ Quicksort algorithm operates by partitioning an array into two sub-arrays and th
 
 ##### Sorting process
 
-[Preview](https://rawgit.com/donbeave/interview/master/quick-sort.html)
+[Preview](https://rawgit.com/reach2arunprakash/interview/master/quick-sort.html)
 
 If the array contains only one element or zero elements then the array is sorted.
 
