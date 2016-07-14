@@ -123,19 +123,19 @@ To simplify the running time estimation,    for a function f(n), we ignore the c
 	7n-2
 
 	7n-2 is O(n)
-need c > 0 and n0  1 such that 7n-2  c•n for n  n0
+need c > 0 and n0 >= 1 such that 7n-2 <= c•n for n >= n0
 this is true for c = 7 and n0 = 1
 
 3n3 + 20n2 + 5
 
 3n3 + 20n2 + 5 is O(n3)
-need c > 0 and n0  1 such that 3n3 + 20n2 + 5  c•n3 for n  n0
+need c > 0 and n0 >= 1 such that 3n3 + 20n2 + 5 <= c•n3 for n >= n0
 this is true for c = 4 and n0 = 21
 
 3 log n + 5
 
 3 log n + 5 is O(log n)
-need c > 0 and n0  1 such that 3 log n + 5  c•log n for n  n0
+need c > 0 and n0 >= 1 such that 3 log n + 5 <= c•log n for n >= n0
 this is true for c = 8 and n0 = 2
 ```
 
