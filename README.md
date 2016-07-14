@@ -115,6 +115,41 @@ end loop;
 
 has complexity `(N2)`. The loop executes N times and each function/procedure call `g(N)` is complexity `O(N)`.
 
+
+To simplify the running time estimation,    for a function f(n), we ignore the constants and lower order terms.
+
+	Example: 10n3+4n2-4n+5  is O(n3).  
+
+	7n-2
+
+	7n-2 is O(n)
+need c > 0 and n0  1 such that 7n-2  c•n for n  n0
+this is true for c = 7 and n0 = 1
+
+3n3 + 20n2 + 5
+
+3n3 + 20n2 + 5 is O(n3)
+need c > 0 and n0  1 such that 3n3 + 20n2 + 5  c•n3 for n  n0
+this is true for c = 4 and n0 = 21
+
+3 log n + 5
+
+3 log n + 5 is O(log n)
+need c > 0 and n0  1 such that 3 log n + 5  c•log n for n  n0
+this is true for c = 8 and n0 = 2
+
+
+Comparing O(N2) to O(N log N)
+
+
+N		N log N		N2
+2		    2		4
+8		    24		64
+32		    160		1024
+128		    896		16,384
+512		    4,608	262,144
+2,048	    22,528	4,194,304
+
 ## Algorithms
 ## Simple Sorting
 
@@ -281,6 +316,14 @@ A deque is a double-ended queue. You can insert items at either end and delete t
 #### Priority Queues
 
 A priority queue is a more specialized data structure than a stack or a queue. However, it’s a useful tool in a surprising number of situations. Like an ordinary queue, a priority queue has a front and a rear, and items are removed from the front. However, in a priority queue, items are ordered by key value so that the item with the lowest key (or in some implementations the highest key) is always at the front. Items are inserted in the proper position to maintain the order.
+
+Difference between a heap and a priority queue
+
+A priority queue can have any implementation, like a array that you search linearly when you pop. All it means is that when you pop you get the value with either the minimum or the maximum depending.
+
+A classic heap as it is typically referred to is usually a min heap. An implementation that has good time complexity (O(log n) on push and pop) and no memory overhead.
+
+In short, a priority queue can be implemented using many of the data structures that we've already studied (an array, a linked list, or a binary search tree). However, those data structures do not provide the most efficient operations. To make all of the operations very efficient, we'll use a new data structure called a heap.
 
 ##### Efficiency
 
