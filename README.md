@@ -1,6 +1,6 @@
 # Data Structures and Algorithms in Java
 
-[![Analytics](https://ga-beacon.appspot.com/UA-71075299-1/interview/main-page)](https://github.com/igrigorik/ga-beacon)
+[www.guvi.in](https://github.com/igrigorik/ga-beacon)
 
 Very useful to understand the basics and to write better code.
 
