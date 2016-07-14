@@ -151,8 +151,37 @@ N		N log N		N2
 2,048	    22,528	4,194,304
 ```
 
+
+```
+    O(n): If I double the input size the runtime doubles
+
+    O(n2): If the input size doubles the runtime quadruples
+
+    O(log n): If the input size doubles the runtime increases by one
+
+    O(2n): If the input size increases by one, the runtime doubles
+```
+	
+Question
+
+What is the average case Big O of linear search in an array with N items, if an item is present?
+O(N)
+O(N2) 
+O(1)
+O(logN)
+O(NlogN)
+
+
+
 ## Algorithms
 ## Simple Sorting
+
+
+##### Where it happens?
+1.An internal sort requires that the collection of data fit entirely in the computer’s main memory.
+2.We can use an external sort  when  the collection of data cannot fit in the computer’s main memory all at once but must reside in secondary storage such as on a disk.
+
+The first three are the foundations for faster and more efficient algorithms.
 
 ### Bubble Sort
 
@@ -167,6 +196,7 @@ The bubble sort is notoriously slow, but it’s conceptually the simplest of the
 1. Compare two items.
 2. If the one on the left is bigger, swap them.
 3. Move one position right.
+
 
 ##### Efficiency
 
