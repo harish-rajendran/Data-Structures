@@ -360,6 +360,10 @@ Quicksort operates in `O(N*logN)` time. This is generally true of the divide-and
 
 Java offers a standard way of sorting Arrays with `Arrays.sort()`. This sort algorithm is a modified quicksort which show more frequently a complexity of `O(n log(n))`. See the Javadoc for details.
 
+
+Since jdk7 many changes regarding sorts of options has occured, this was discussed many time, there are many information and articles on this subject, you can easily google it.
+In short, here is the actual list of sorting implementations in the jdk: TimSort - for sorting objects by default, mergesort - also used for objects, the old version (enabled through a system property), Dual-Pivot Quick sort - for primitives, then sorting by counting is used for byte / character arrays and finally insertion sort is used for small arrays used in any case.
+
 # Data Structures
 
 ### Stacks
