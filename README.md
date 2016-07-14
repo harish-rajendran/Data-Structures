@@ -117,7 +117,7 @@ has complexity `(N2)`. The loop executes N times and each function/procedure cal
 
 
 To simplify the running time estimation,    for a function f(n), we ignore the constants and lower order terms.
-
+```
 	Example: 10n3+4n2-4n+5  is O(n3).  
 
 	7n-2
@@ -137,11 +137,11 @@ this is true for c = 4 and n0 = 21
 3 log n + 5 is O(log n)
 need c > 0 and n0  1 such that 3 log n + 5  c•log n for n  n0
 this is true for c = 8 and n0 = 2
-
+```
 
 Comparing O(N2) to O(N log N)
 
-
+```
 N		N log N		N2
 2		    2		4
 8		    24		64
@@ -149,6 +149,7 @@ N		N log N		N2
 128		    896		16,384
 512		    4,608	262,144
 2,048	    22,528	4,194,304
+```
 
 ## Algorithms
 ## Simple Sorting
