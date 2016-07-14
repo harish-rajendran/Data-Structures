@@ -1,13 +1,32 @@
 # Data Structures and Algorithms in Java
 
-[www.guvi.in](https://github.com/igrigorik/ga-beacon)
+#[www.guvi.in]
+
+
 
 Very useful to understand the basics and to write better code.
 
+#How thing scale
+
+In one sentence: As the size of your job goes up, how much longer does it take to complete it?
 # Big O Notation
 
-#### Big-O Complexity Chart
-![Big-O Complexity Chart](http://bigocheatsheet.com/img/big-o-complexity.png)
+```
+Big O is useful to compare how well two algorithms will scale up as the number of inputs is increased. Big O describes the fundamental scaling nature of an algorithm.
+
+```
+
+#### Why is this so important?
+
+```
+
+Because software deals with problems that may differ in size by factors up to a trillion.
+
+It is very difficult to measure the speed of software programs, and when we try, the answers can be very complex and filled with exceptions and special cases. This is a big problem, because all those exceptions and special cases are distracting and unhelpful when we want to compare two different programs with one another to find out which is "fastest".
+
+Consider the canonical sorting example. Bubble-sort is O(n2) while merge-sort is O(n log n). Let's say you have two sorting applications, application A which uses bubble-sort and application B which uses merge-sort, and let's say that for input sizes of around 30 elements application A is 1,000x faster than application B at sorting. If you never have to sort much more than 30 elements then it's obvious that you should prefer application A, as it is much faster at these input sizes. However, if you find that you may have to sort ten million items then what you'd expect is that application B actually ends up being thousands of times faster than application A in this case, entirely due to the way each algorithm scales.
+
+```
 
 #### Constant — statement (one line of code)
 
@@ -161,7 +180,10 @@ N		N log N		N2
 
    -  O(2n): If the input size increases by one, the runtime doubles
 ```
-	
+
+#### Big-O Complexity Chart
+![Big-O Complexity Chart](http://bigocheatsheet.com/img/big-o-complexity.png)
+
 Question
 
 What is the average case Big O of linear search in an array with N items, if an item is present?
